@@ -3,3 +3,4 @@ joblib
 scikit-learn
 pandas
 numpy
+pillow==9.4.0
