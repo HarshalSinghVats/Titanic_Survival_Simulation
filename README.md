@@ -1,46 +1,49 @@
 # 🚢 Titanic Survival Simulation
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Joblib](https://img.shields.io/badge/Joblib-87CEEB?style=for-the-badge&logo=joblib&logoColor=white)](https://joblib.readthedocs.io/)
 
 ## Overview
-This project is a *Titanic Survival Simulation* that utilizes machine learning to predict the survival of passengers based on various factors. The project is built using a combination of *Streamlit*, *Scikit-Learn*, *NumPy*, and *Joblib*.
+The Titanic Survival Simulation is a project that utilizes machine learning to predict the survival of passengers based on various factors. This project is built using a combination of Streamlit for the frontend, Scikit-learn for machine learning, and NumPy for numerical computations.
 
 ## Key Features
-* 🚀 **Prediction Model**: A trained machine learning model to predict survival chances
-* 📊 **Data Preprocessing**: Standardization of data using *StandardScaler*
-* 📈 **Visualization**: Interactive visualization using *Streamlit*
+* 🚀 **Survival Prediction**: Predict the survival of passengers based on factors like age, sex, and class.
+* 📊 **Data Analysis**: Analyze the Titanic dataset to understand the factors that contribute to survival.
+* 📈 **Model Training**: Train a machine learning model to make predictions on the survival of passengers.
 
 ## Technology Stack
-* Backend: Streamlit
-* ML: Scikit-Learn
-* Libs: NumPy, Joblib
+* Frontend: Streamlit
+* Machine Learning: Scikit-learn
+* Libraries: NumPy, Joblib
 
 ## Getting Started
-To get started with the project, follow these steps:
-1. Clone the repository: `git clone https://github.com/HarshalSinghVats/Titanic_Survival_Simulation.git`
-2. Install the required libraries: `pip install -r requirements.txt`
-3. Run the application: `streamlit run titanic_prediction.py`
+To get started with this project, follow these steps:
+1. Clone the repository using `git clone https://github.com/HarshalSinghVats/Titanic_Survival_Simulation.git`
+2. Install the required packages using `pip install -r requirements.txt`
+3. Run the application using `streamlit run titanic_prediction.py`
 
 ## Usage
-To use the project, simply run the application and interact with the interface to predict survival chances.
+To use the application, simply run the command `streamlit run titanic_prediction.py` and access the application in your web browser.
 
 ## Configuration
-No specific configuration is required for this project.
+No specific configuration is required for this project. However, you may need to install additional packages or libraries depending on your system configuration.
 
 ## Contributing
-Contributions are welcome! Please submit a pull request with your changes.
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
 
 ## License
-No license information is provided.
+This project is licensed under the MIT License.
 
 ## Project Structure
 The project structure is as follows:
-* `titanic_prediction.py`: The main application file
-* `titanic_prediction.joblib`: The trained machine learning model
-* `titanic_scaler.joblib`: The standard scaler used for data preprocessing
-* `requirements.txt`: The list of required libraries
+* `README.md`: This file
+* `packages.txt`: List of packages required for the project
+* `requirements.txt`: List of Python packages required for the project
+* `runtime.txt`: Runtime environment configuration
+* `titanic_prediction.joblib`: Trained machine learning model
+* `titanic_prediction.py`: Application code
+* `titanic_scaler.joblib`: Data scaler model
 
 ## Credit
-Built with ❤️ by [Harshal Singh Vats](https://github.com/HarshalSinghVats)
+Built with ❤️ by Harshal Singh Vats
